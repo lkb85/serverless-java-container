@@ -18,7 +18,7 @@ import com.amazonaws.services.lambda.runtime.Context;
 import jakarta.ws.rs.core.SecurityContext;
 
 /**
- * This object is used by the container implementation to generated a Jax-Rs <code>SecurityContext</code> object from the
+ * This object is used by the container implementation to generate a Jax-Rs <code>SecurityContext</code> object from the
  * incoming AWS Lambda event.
  * @param <RequestType> The AWS Lambda event type
  */

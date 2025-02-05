@@ -635,7 +635,7 @@ public abstract class AwsHttpServletRequest implements HttpServletRequest {
     }
 
     /**
-     * Prases a header value using the default value separator "," and qualifier separator ";".
+     * Parses a header value using the default value separator "," and qualifier separator ";".
      * @param headerValue The value to be parsed
      * @return A list of SimpleMapEntry objects with all of the possible values for the header.
      */
